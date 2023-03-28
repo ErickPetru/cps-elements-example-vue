@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import CpsButton from '@cps-elements/web/components/button'
-import CpsIcon from '@cps-elements/web/components/icon'
+import CpsButton from "@cps-elements/web/components/button";
+import CpsIcon from "@cps-elements/web/components/icon";
 
 import { ref } from "vue";
 
@@ -24,13 +24,24 @@ const onClick = () => {
     Clique
   </cps-button>
 
-  <p>{{ message }}</p>
+  <p v-if="message">
+    <cps-icon library="uil" name="clock-mono" style="" />
+
+    {{ message }}
+  </p>
 </template>
 
-<style>
-body {
+<style scoped>
+:global(body) {
   font: var(--cps-text-body);
-  color: var(--cps-foreground-primary);
   background-color: var(--cps-fill-solid-primary);
+  color: var(--cps-foreground-primary);
+  padding: 1rem;
+}
+
+p cps-icon {
+  font-size: 1rem;
+  vertical-align: middle;
+  margin-top: -2px;
 }
 </style>
