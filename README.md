@@ -31,7 +31,7 @@ Este projeto de exemplo simples já está pronto para execução, utilizando-se 
 Sua estruturação se baseia na [documentação de integração com Vue](https://cpsrepositorio.github.io/cps-elements/#/frameworks/vue) do CPS Elements. Embora detalhes possam ser obtidos em tal documentação, segue resumo do que foi realizado no projeto para que a integração funcione:
 
 - Instalação do CPS Elements usando `npm install @cps-elements/web`, ficando então registrado no [package.json](./package.json);
-- [Configuração](https://cpsrepositorio.github.io/cps-elements/#/frameworks/vue?id=configuração) em [vite.config.js](./vite.config.ts) definindo que _tags_ inciadas com `cps-` são elementos customizados, ao invés de componentes Vue;
+- [Configuração](https://cpsrepositorio.github.io/cps-elements/#/frameworks/vue?id=configuração) em [vite.config.ts](./vite.config.ts) definindo que _tags_ inciadas com `cps-` são elementos customizados, ao invés de componentes Vue;
 - Importação do tema base `light.css` e chamada ao método `setBasePath` em [src/main.ts](./src/main.ts);
 - _[Opcional]_ Registrada biblioteca de ícones adicional em [src/main.ts](./src/main.ts) usando o método `registerIconLibrary`, apenas como exemplo;
 - Nos componentes Vue que utilizarão CPS Elements, basta importar cada componente desejado, como exibido em [src/App.vue](./src/App.vue);
