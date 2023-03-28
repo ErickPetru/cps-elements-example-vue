@@ -25,7 +25,7 @@ const onClick = () => {
   </cps-button>
 
   <p v-if="message">
-    <cps-icon library="uil" name="clock-mono" style="" />
+    <cps-icon library="uil" name="clock-mono" />
 
     {{ message }}
   </p>
