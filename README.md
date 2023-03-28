@@ -30,9 +30,9 @@ Este projeto de exemplo simples já está pronto para execução, utilizando-se 
 
 Sua estruturação se baseia na [documentação de integração com Vue](https://cpsrepositorio.github.io/cps-elements/#/frameworks/vue) do CPS Elements. Embora detalhes possam ser obtidos em tal documentação, segue resumo do que foi realizado no projeto para que a integração funcione:
 
-- Instalação do CPS Elements usando `npm install @cps-elements/web`, ficando então registrado no [package.json](https://github.com/ErickPetru/cps-elements-example-vue/blob/main/package.json);
-- [Configuração](https://cpsrepositorio.github.io/cps-elements/#/frameworks/vue?id=configuração) em [vite.config.js](https://github.com/ErickPetru/cps-elements-example-vue/blob/main/vite.config.ts) definindo que _tags_ inciadas com `cps-` são elementos customizados, ao invés de componentes Vue;
-- Importação do tema base `light.css` e chamada ao método `setBasePath` em [src/main.ts](https://github.com/ErickPetru/cps-elements-example-vue/blob/main/src/main.ts);
-- _[Opcional]_ Registrada biblioteca de ícones adicional em [src/main.ts](https://github.com/ErickPetru/cps-elements-example-vue/blob/main/src/main.ts) usando o método `registerIconLibrary`, apenas como exemplo;
-- Nos componentes Vue que utilizarão CPS Elements, basta importar cada componente desejado, como exibido em [src/App.vue](https://github.com/ErickPetru/cps-elements-example-vue/blob/main/src/App.vue);
-- _[Opcional]_ Para [auto-completação de código](https://cpsrepositorio.github.io/cps-elements/#/fundamentos/utilização?id=auto-completação-de-código) dos CPS Elements e seus atributos no [VS Code](https://code.visualstudio.com/), vide [.vscode/settings.json](https://github.com/ErickPetru/cps-elements-example-vue/tree/main/.vscode).
+- Instalação do CPS Elements usando `npm install @cps-elements/web`, ficando então registrado no [package.json](./package.json);
+- [Configuração](https://cpsrepositorio.github.io/cps-elements/#/frameworks/vue?id=configuração) em [vite.config.js](./vite.config.ts) definindo que _tags_ inciadas com `cps-` são elementos customizados, ao invés de componentes Vue;
+- Importação do tema base `light.css` e chamada ao método `setBasePath` em [src/main.ts](./src/main.ts);
+- _[Opcional]_ Registrada biblioteca de ícones adicional em [src/main.ts](./src/main.ts) usando o método `registerIconLibrary`, apenas como exemplo;
+- Nos componentes Vue que utilizarão CPS Elements, basta importar cada componente desejado, como exibido em [src/App.vue](./src/App.vue);
+- _[Opcional]_ Para [auto-completação de código](https://cpsrepositorio.github.io/cps-elements/#/fundamentos/utilização?id=auto-completação-de-código) dos CPS Elements e seus atributos no [VS Code](https://code.visualstudio.com/), vide [.vscode/settings.json](./.vscode/settings.json).
