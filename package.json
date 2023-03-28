@@ -1,6 +1,6 @@
 {
   "name": "cps-elements-example-vue",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@cps-elements/web": "^0.1.6",
+    "@cps-elements/web": "^0.1.7",
     "vue": "^3.2.47"
   },
   "devDependencies": {

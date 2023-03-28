@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import CpsButton from "@cps-elements/web/components/button";
-import CpsIcon from "@cps-elements/web/components/icon";
+import { CpsButton } from "@cps-elements/web/components/button";
+import { CpsIcon } from "@cps-elements/web/components/icon";
 
 import { ref } from "vue";
 
