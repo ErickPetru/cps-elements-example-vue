@@ -1,13 +1,9 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.node.json",
-  "include": [
-    "vite.config.*",
-    "vitest.config.*",
-    "cypress.config.*",
-    "playwright.config.*"
-  ],
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "include": [ "vite.config.*" ],
   "compilerOptions": {
     "composite": true,
-    "types": ["node"]
+    "types": ["node"],
+    "plugins": [{ "name": "@vue/typescript-plugin" }]
   }
 }

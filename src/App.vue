@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { CpsButton } from "@cps-elements/web/components/button";
-import { CpsIcon } from "@cps-elements/web/components/icon";
+import { CpsButton } from "@cps-elements/web/components/button.js";
+import { CpsIcon } from "@cps-elements/web/components/icon.js";
 
 import { ref } from "vue";
 
@@ -33,9 +33,9 @@ const onClick = () => {
 
 <style scoped>
 :global(body) {
-  font: var(--cps-text-body);
-  background-color: var(--cps-fill-solid-primary);
-  color: var(--cps-foreground-primary);
+  font: var(--cps-font-body);
+  background: var(--cps-color-background-solid-primary);
+  color: var(--cps-color-text-primary);
   padding: 1rem;
 }
 
