@@ -10,8 +10,8 @@
     "type-check": "vue-tsc --noEmit"
   },
   "engines": {
-    "node": "v24",
-    "npm": "v11"
+    "node": ">=24.0.0",
+    "npm": ">=11.0.0"
   },
   "dependencies": {
     "@cps-elements/web": "^0.25.0",
